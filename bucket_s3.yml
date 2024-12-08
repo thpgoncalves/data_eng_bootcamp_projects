@@ -1,0 +1,16 @@
+## Template Cloudformation
+
+Description: Create a bucket on S3
+
+Resources:
+
+  MyBucketBanguela:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: my-first-bucket-banguela
+      BucketEncryption:
+        ServerSideEncryptionConfiguration: 
+          - ServerSideEncryptionByDefault: 
+              SSEAlgorithm: AES256
+
+
