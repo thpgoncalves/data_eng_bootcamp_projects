@@ -1,0 +1,13 @@
+{
+    "Name": "Thiago Gonçalves",
+    "Country": "BR",
+    "Sports": [
+        "Jiujitsu",
+        "Soccer",
+        "Walking"
+    ],
+    "Address": {
+        "Street": "Av. Paulista",
+        "House": "Flat 60"
+    }
+}
